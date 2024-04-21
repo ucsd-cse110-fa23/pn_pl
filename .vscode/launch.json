@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "UI",
+            "request": "launch",
+            "mainClass": "ui.Main",
+            "projectName": "app",
+            "vmArgs": "--module-path 'app/lib' --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "middleware.Server",
+            "projectName": "app",
+            "vmArgs": "--module-path 'app/lib' --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}

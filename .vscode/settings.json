@@ -1,0 +1,8 @@
+{
+"java.configuration.updateBuildConfiguration": "interactive",
+"java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "app/lib/json-20230227.jar"
+]
+}
+
